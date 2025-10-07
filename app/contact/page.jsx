@@ -144,44 +144,43 @@ function Contact() {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
         <label className="block text-[#0F828C] font-semibold mb-1">Name</label>
-        <input
-          type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          placeholder="Your Name"
-          className="w-full px-4 py-2 border border-[#9ECAD6] rounded-md bg-[#F9FDFD] focus:outline-none focus:ring-2 focus:ring-[#0F828C]"
-          required
-        />
+     <input
+  type="text"
+  name="name"
+  value={formData.name}
+  onChange={handleChange}
+  placeholder="Your Name"
+  className="w-full px-4 py-2 border border-[#9ECAD6] rounded-md bg-[#F9FDFD] text-black placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#0F828C]"
+  required
+/>
       </div>
 
       <div>
         <label className="block text-[#0F828C] font-semibold mb-1">Email</label>
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          placeholder="you@example.com"
-          className="w-full px-4 py-2 border border-[#9ECAD6] rounded-md bg-[#F9FDFD] focus:outline-none focus:ring-2 focus:ring-[#0F828C]"
-          required
-        />
+     <input
+  type="email"
+  name="email"
+  value={formData.email}
+  onChange={handleChange}
+  placeholder="you@example.com"
+  className="w-full px-4 py-2 border border-[#9ECAD6] rounded-md bg-[#F9FDFD] text-black placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#0F828C]"
+  required
+/>
       </div>
 
       <div>
         <label className="block text-[#0F828C] font-semibold mb-1">Message</label>
-        <textarea
-          name="message"
-          rows="4"
-          value={formData.message}
-          onChange={handleChange}
-          placeholder="Write your message here..."
-          className="w-full px-4 py-2 border border-[#9ECAD6] rounded-md bg-[#F9FDFD] focus:outline-none focus:ring-2 focus:ring-[#0F828C]"
-          required
-        ></textarea>
+   <textarea
+  name="message"
+  rows="4"
+  value={formData.message}
+  onChange={handleChange}
+  placeholder="Write your message here..."
+  className="w-full px-4 py-2 border border-[#9ECAD6] rounded-md bg-[#F9FDFD] text-black placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#0F828C]"
+  required
+></textarea>
       </div>
 
-      {/* Centered Button */}
       <div className="flex justify-center">
         <button
           type="submit"
