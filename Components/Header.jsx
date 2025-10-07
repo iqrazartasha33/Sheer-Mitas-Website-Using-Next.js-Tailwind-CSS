@@ -104,7 +104,7 @@ function Header() {
       </section>
 
 
-<section className="pt-5 pb-16 px-6">
+<section className="bg-white pt-5 pb-16 px-6">
   <h2 className="text-3xl font-bold text-center text-[#0F828C] mb-12">
     Explore More Delights
   </h2>
