@@ -281,7 +281,7 @@ function Header() {
 
 
 
-<section className="bg-[white] py-16 px-6">
+<section className="bg-white py-16 px-6">
   <h2 className="text-3xl font-bold text-center text-[#0F828C] mb-12">
     Limited Time Offers 🎁
   </h2>
@@ -347,7 +347,7 @@ function Header() {
   </div>
 </section>
 
-
+<section className="bg-white">
 <section className="bg-[#9ECAD6] py-9 px-6 text-center mb-20">
   <h2 className="text-3xl font-bold text-[#0F828C] mb-10">Why Choose Sheer Mithaas?</h2>
   <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -373,6 +373,7 @@ function Header() {
       <p className="text-sm text-gray-600">Real reviews. Real smiles. Real mithaas.</p>
     </div>
   </div>
+</section>
 </section>
 
       </>
